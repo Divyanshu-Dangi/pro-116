@@ -1,0 +1,16 @@
+.btn-success{
+    background-color: red;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 28px red;}
+    to{box-shadow: 1px 1px 28px yellow;}
+}
+body{
+    text-align: center;
+}
